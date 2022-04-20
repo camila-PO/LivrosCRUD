@@ -105,7 +105,7 @@ namespace LivrosProjeto
 
                     case 4:
                         //Atualizar
-                        Console.WriteLine("Qual campo do pedido deseja atualizar?");
+                        Console.WriteLine("Escreva valorPedido para atualizar valor: ");
                         string campo = Console.ReadLine();
                         Console.WriteLine("Qual o novo dado?");
                         string novoDado = Console.ReadLine();
@@ -177,7 +177,7 @@ namespace LivrosProjeto
 
                     case 4:
                         //Atualizar
-                        Console.WriteLine("Qual campo desejas atualizar?");
+                        Console.WriteLine("Escreva qual campo desejas atualizar: nome, telefone, endereco, login ou senha.");
                         string campo = Console.ReadLine();
                         Console.WriteLine("Qual o novo dado?");
                         string novoDado = Console.ReadLine();
@@ -250,7 +250,7 @@ namespace LivrosProjeto
 
                     case 4:
                         //Atualizar
-                        Console.WriteLine("Qual campo desejas atualizar?");
+                        Console.WriteLine("Escreva qual campo deseja atualizar: titulo, autor, preco, editora ou qtdEstoque.");
                         string campo = Console.ReadLine();
                         Console.WriteLine("Qual o novo dado?");
                         string novoDado = Console.ReadLine();
@@ -314,7 +314,7 @@ namespace LivrosProjeto
 
                     case 4:
                         //Atualizar
-                        Console.WriteLine("Qual campo deseja atualizar?");
+                        Console.WriteLine("Escreva qual campo deseja atualizar: numeroCartao, nomeCartao ou codSeguranca.");
                         string campo = Console.ReadLine();
                         Console.WriteLine("Qual o novo dado?");
                         string novoDado = Console.ReadLine();
