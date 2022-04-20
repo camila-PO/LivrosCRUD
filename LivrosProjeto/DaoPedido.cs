@@ -136,7 +136,7 @@ namespace LivrosProjeto
             try
             {
                 resultado = "update Pedido set " + campo + " = '" +
-                novoDado + "' where codigo = '" + codigo + "'";
+                novoDado + "' where codigoPedido = '" + codigo + "'";
                 //Executar o script
                 MySqlCommand sql = new MySqlCommand(resultado, conexao);
                 resultado = "" + sql.ExecuteNonQuery();
